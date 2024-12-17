@@ -2,18 +2,27 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Halaman Profil Bandung</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <script></script>
   </head>
 
   <body>
     <header>
-      <h1>Bandung</h1>
-      <p>
-        Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu
-        kota provinsi tersebut.
-      </p>
+      <div class="jumbotron">
+        <h1>Bandung</h1>
+        <p>
+          Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi
+          ibu kota provinsi tersebut.
+        </p>
+      </div>
       <nav>
         <ul>
           <li>
@@ -31,11 +40,12 @@
 
     <main>
       <div id="content">
-        <article id="sejarah">
+        <article id="sejarah" class="card">
           <h2 id="Sejarah">Sejarah</h2>
           <img
             src="assest/halaman-profil-bandung-images/image/history.jpg"
             alt="Sejarah"
+            class="featured-image"
           />
           <p>
             Kata Bandung berasal dari kata bendung atau bendungan karena
@@ -60,7 +70,7 @@
           </p>
         </article>
 
-        <article id="geografis">
+        <article id="geografis" class="card">
           <h2 id="Geografis">Geografis</h2>
           <img
             src="assest/halaman-profil-bandung-images/image/geografis.jpg"
@@ -85,7 +95,7 @@
           </p>
         </article>
 
-        <article id="wisata">
+        <article id="wisata" class="card">
           <h2 id="Wisata">Wisata</h2>
           <p>
             Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi
@@ -132,7 +142,7 @@
       </div>
 
       <aside>
-        <article>
+        <article class="profile card">
           <h2>Kota Bandung</h2>
           <p>Kota Kembang Paris Van Java</p>
           <figure>
@@ -142,6 +152,31 @@
             />
             <figcaption>Lambang</figcaption>
           </figure>
+
+          <h3>Informasi Lainnya</h3>
+
+          <table>
+            <tr>
+              <th>Negara</th>
+              <td>Indonesia</td>
+            </tr>
+            <tr>
+              <th>Hari jadi</th>
+              <td>25 September 1810</td>
+            </tr>
+            <tr>
+              <th>Luas Total</th>
+              <td>167.67 km<sup>2</sup></td>
+            </tr>
+            <tr>
+              <th>Bahasa Daerah</th>
+              <td>Sunda</td>
+            </tr>
+            <tr>
+              <th>Kode Telepon</th>
+              <td>+62 22</td>
+            </tr>
+          </table>
         </article>
       </aside>
     </main>
